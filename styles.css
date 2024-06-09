@@ -1,0 +1,169 @@
+/* styles.css */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    padding: 0;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/5-dots.png');
+    background-repeat: repeat;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    background-color: pink;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #b0b0b0;
+}
+
+.profile-img {
+    width: 100px;  /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image round */
+    float: left;  /* Float the image to the left for text wrapping */
+    margin-right: 10px; /* Space between image and text */
+}
+
+.header-container img {
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: pink;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.content {
+    flex: 3;
+    background-color: pink;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: pink;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.bio-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.bio-container .profile-img {
+    margin-right: 20px;
+}
+
+.bio-text {
+    flex: 1;
+}
+
+.connect-with-me {
+    flex: 1;
+    background-color: lightpink;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    display: flex;
+    margin: 0 10px; /* Adjust spacing as needed */
+}
+
+.social-links li a img {
+    width: 30px; /* Adjust the size of the icons as needed */
+    height: 30px; /* Adjust the size of the icons as needed */
+}
+
+footer {
+    background-color: lightpink;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto; /* Ensure the footer sticks to the bottom if content is less */
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    flex: 0 0 30%; /* Sidebar takes up 30% of the container */
+}
+
+main, nav {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: black;
+    padding: 24px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .link {
+    color: white;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.link {
+    margin: 0 4px;
+}
+
+footer {
+    color: white;
+}
